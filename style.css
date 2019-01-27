@@ -135,15 +135,18 @@ header{
   position: relative;
   background-color: black;
   opacity: 1;
-  margin: 10px;
+  margin: 20px;
 }
 .address-container{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 80px;
   }
   /*Footer*/
 .bottom-left{
   text-align: left;
+}
+footer{
+  height: 200px;
 }
