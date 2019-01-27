@@ -17,6 +17,7 @@ html{
 h2{
   font-size: 30px;
   font-weight: bold;
+  opacity: 0.9;
 }
 
 h3{
