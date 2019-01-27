@@ -130,7 +130,7 @@ header{
   position: relative;
   background-color: black;
   opacity: 1;
-  margin: 10px;
+  margin: 20px;
 }
 .address-container{
   display: flex;
@@ -138,3 +138,11 @@ header{
   justify-content: center;
   margin-top: 100px;
   }
+
+  #locations h2{
+    color: green;
+  }
+/*Footer*/
+.bottom-left{
+  text-align: left;
+}
