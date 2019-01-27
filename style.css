@@ -16,6 +16,7 @@ html{
 }
 h2{
   font-size: 30px;
+  font-weight: bold;
 }
 
 h3{
@@ -23,7 +24,7 @@ h3{
 }
 
 h4{
-  font-size: 24px;  
+  font-size: 24px;
 }
 
 
@@ -134,14 +135,23 @@ header{
   position: relative;
   background-color: black;
   opacity: 1;
-  margin: 20px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .address-container{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 80px;
-  }
+  margin-top: 0px;
+  position: relative;
+}
+#locations-title{
+  position:relative;
+  padding-top: 50px;
+  margin-bottom: 15px;
+}
+
   /*Footer*/
 .bottom-left{
   text-align: left;
