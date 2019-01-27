@@ -14,7 +14,6 @@ html{
     margin-top:0;
     padding-top:0;
 }
-
 h2{
   font-size: 30px;
 }
@@ -25,11 +24,10 @@ h3{
 
 h4{
   font-size: 24px;
+  color: yellow;
 }
 
-h5{
-  font-size: 20px;
-}
+
 
 .h2andh4{
   display: block;
@@ -86,10 +84,9 @@ header{
   display: flex;
   position: relative;
   z-index: -1;
-  margin: auto;
+  margin: 0 auto;
   height: 700px;
   width:1200px;
-  margin-bottom: 50px;
 }
 
 .topbg{
@@ -103,7 +100,9 @@ header{
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  justify-content:center;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
   width: 1000px;
 }
 
@@ -116,7 +115,6 @@ header{
   justify-content: center;
   align-content: center;
   margin-top: 100px;
-  margin-left: 30px;
 }
 
 /*Bottoom Part*/
@@ -128,7 +126,7 @@ header{
   display: block;
   align-items: center;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .address-box{
   height: 300px;
@@ -136,7 +134,7 @@ header{
   position: relative;
   background-color: black;
   opacity: 1;
-  margin: 0px;
+  margin: 10px;
 }
 .address-container{
   display: flex;
@@ -144,17 +142,3 @@ header{
   justify-content: center;
   margin-top: 100px;
   }
-
-  .locations h2{
-    color: green;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: -100px;
-  }
-
-
-/*Footer*/
-.bottom-left{
-  text-align: left;
-}
