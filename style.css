@@ -60,7 +60,7 @@ header{
 .logo{
   display: flex;
   flex-grow: 1;
-  padding-left: 10px;
+  padding: 10px;
 
   }
 
@@ -70,7 +70,7 @@ header{
   margin-right: 12px;
 }
 
-.logo-nav nav a{
+a{
   padding-right: 20px;
   color: WhiteSmoke;
 }
@@ -104,16 +104,19 @@ header{
   width: 1000px;
 }
 
-.middle-images{
+.middle-images img{
   width: 300px;
   height: 200px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
-  margin-top: 100px;
-  margin-left: 20px;
+  margin: 5px;
+}
+
+.middle-text {
+  margin-top: 10px;
 }
 
 /*Bottoom Part*/
@@ -125,7 +128,7 @@ header{
   display: block;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+
 }
 .address-box{
   height: 300px;
@@ -154,6 +157,6 @@ header{
 .bottom-left{
   text-align: left;
 }
-footer{
+.footer-top {
   height: 200px;
 }
