@@ -140,6 +140,7 @@ a{
   margin-left: 20px;
   margin-right: 20px;
 }
+
 .address-container{
   display: flex;
   align-items: center;
@@ -147,6 +148,7 @@ a{
   margin-top: 0px;
   position: relative;
 }
+
 #locations-title{
   position:relative;
   padding-top: 50px;
